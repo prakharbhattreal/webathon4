@@ -2,7 +2,7 @@ import FocusCardsDemo from "@/components/focus-cards-demo";
 
 export default function SpeakersPage() {
   return (
-    <main className="min-h-screen bg-black px-6 py-24 text-white font-audiowide">
+    <main className="min-h-screen bg-white px-4 py-12 text-black dark:bg-black dark:text-white font-audiowide">
       <section className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mb-16 text-center">
