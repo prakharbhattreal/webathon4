@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { motion, useMotionValue, useScroll } from "motion/react";
+import { useRef } from "react";
+import { useScroll } from "motion/react";
 import { GoogleGeminiEffect } from "@/components/ui/google-gemini-effect";
 
 export default function Hero() {

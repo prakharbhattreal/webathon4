@@ -2,18 +2,19 @@
 
 import Hero from "@/components/Hero";
 import { Navbar } from "@/components/navbar";
-import { GoogleGeminiEffect } from "@/components/ui/google-gemini-effect";
-import ExpandableCardDemo from "@/components/ui/expandable-card-demo-standard"; // Import your expandable cards block
-import { useMotionValue } from "motion/react";
 
 export default function Home() {
-  const pathLength = useMotionValue(0);
-
   return (
+<<<<<<< HEAD
     <div className="relative flex flex-col flex-1 items-center justify-center bg-zinc-50 font-audiowide dark:bg-black min-h-screen">
       <Navbar />
 
       <Hero />
+=======
+    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-audiowide dark:bg-black">
+      <Navbar/>
+      <Hero/>
+>>>>>>> 2a71d32d2aa809a7bae550efee5f1d6aebb82f80
     </div>
   );
 }

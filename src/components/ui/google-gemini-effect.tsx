@@ -1,7 +1,9 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { motion, MotionValue } from "motion/react";
+import Link from "next/link";
 import { FiCalendar, FiMapPin } from "react-icons/fi";
+import { Countdown } from "../countDown";
 
 const transition = {
   duration: 0,
@@ -21,7 +23,9 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto py-1">Annual TechFest Event</p>
+      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto py-1">
+        Annual TechFest Event
+      </p>
       <h1 className="md:text-7xl text-3xl font-bold pb-1 text-center bg-clip-text text-transparent bg-linear-to-b from-neutral-100 to-neutral-300">
         {title || `NIRAVAN TECHFEST '26`}
       </h1>
@@ -43,13 +47,18 @@ export const GoogleGeminiEffect = ({
                 GEHU Campus
               </span>
             </div>
+
+            <Countdown />
           </div>
         )}
       </div>
       <div className="w-full h-222.5 -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
-        <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
-          TechGeeks
-        </button>
+        <Link
+          href="/events"
+          className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs w-fit mx-auto cursor-pointer"
+        >
+          Explore Events
+        </Link>
       </div>
       <svg
         width="1440"

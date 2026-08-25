@@ -12,7 +12,7 @@ export function Navbar() {
     },
     {
       name: "Event",
-      link: "/event",
+      link: "/events",
       icon: <FiCalendar className="h-4 w-4" />,
     },
     {

@@ -6,6 +6,7 @@ import "./globals.css";
 
 import { ThemeProvider } from "@/components/theme-provider";
 import SmoothScroll from "@/components/smooth-scroll";
+import { Navbar } from "@/components/navbar";
 
 const audiowide = Audiowide({
   variable: "--font-audiowide",
@@ -32,7 +33,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SmoothScroll>{children}</SmoothScroll>
+          <SmoothScroll>
+            <Navbar/>
+            {children}
+          </SmoothScroll>
         </ThemeProvider>
       </body>
     </html>
