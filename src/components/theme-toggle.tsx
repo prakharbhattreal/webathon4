@@ -24,7 +24,7 @@ export function ThemeToggle() {
       className="flex h-9 w-9 items-center justify-center rounded-full transition-colors hover:bg-black/10 dark:hover:bg-white/10"
       aria-label="Toggle theme"
     >
-      {isDark ? <FiSun className="h-5 w-5" /> : <FiMoon className="h-5 w-5" />}
+      {isDark ? <FiSun className="h-4 w-4" /> : <FiMoon className="h-4 w-4" />}
     </button>
   );
 }

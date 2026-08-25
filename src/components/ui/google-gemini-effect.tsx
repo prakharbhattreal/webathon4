@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { motion, MotionValue } from "motion/react";
-import React from "react";
+import { FiCalendar, FiMapPin } from "react-icons/fi";
 
 const transition = {
   duration: 0,
@@ -21,17 +21,34 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-linear-to-b from-neutral-100 to-neutral-300">
-        {title || `Build with Aceternity UI`}
-      </p>
-      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
-        {description ||
-          `Scroll this component and see the bottom SVG come to life wow this
-        works!`}
-      </p>
+      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto py-1">Annual TechFest Event</p>
+      <h1 className="md:text-7xl text-3xl font-bold pb-1 text-center bg-clip-text text-transparent bg-linear-to-b from-neutral-100 to-neutral-300">
+        {title || `NIRAVAN TECHFEST '26`}
+      </h1>
+      <div className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
+        {description || (
+          <div className="space-y-3">
+            <p className="md:text-2xl text-xl font-semibold">
+              Where Ideas Become Innovation.
+            </p>
+
+            <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
+              <span className="flex items-center gap-2">
+                <FiCalendar className="h-4 w-4" />
+                OCT 24–26, 2026
+              </span>
+
+              <span className="flex items-center gap-2">
+                <FiMapPin className="h-4 w-4" />
+                GEHU Campus
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
       <div className="w-full h-222.5 -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
         <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
-          NIRVANA '26'
+          TechGeeks
         </button>
       </div>
       <svg

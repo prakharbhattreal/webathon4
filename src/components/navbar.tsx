@@ -1,22 +1,35 @@
 "use client";
 
+import { FiHome, FiCalendar, FiMic, FiAward, FiImage } from "react-icons/fi";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { ThemeToggle } from "./theme-toggle";
 
 export function Navbar() {
   const navItems = [
     {
       name: "Home",
-      link: "#home",
+      link: "/",
+      icon: <FiHome className="h-4 w-4" />,
     },
     {
-      name: "About",
-      link: "#about",
+      name: "Event",
+      link: "/event",
+      icon: <FiCalendar className="h-4 w-4" />,
     },
     {
-      name: "Contact",
-      link: "#contact",
-    }
+      name: "Speakers",
+      link: "/speakers",
+      icon: <FiMic className="h-4 w-4" />,
+    },
+    {
+      name: "Sponsors",
+      link: "/sponsors",
+      icon: <FiAward className="h-4 w-4" />,
+    },
+    {
+      name: "Gallery",
+      link: "/gallery",
+      icon: <FiImage className="h-4 w-4" />,
+    },
   ];
 
   return <FloatingNav navItems={navItems} />;
