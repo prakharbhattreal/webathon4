@@ -210,7 +210,7 @@ const cards = [
     title: "Innovate, build",
     src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
     ctaText: "View",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "/registration",
     content: () => {
       return (
         <div className="space-y-4">
@@ -271,7 +271,7 @@ const cards = [
     title: "Clues, Challenges, Treasure",
     src: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f", // Replaced with an adventure/map themed placeholder image
     ctaText: "View",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "/registration",
     content: () => {
       return (
         <div className="space-y-4">
@@ -334,7 +334,7 @@ const cards = [
     title: "Ultimate Gaming Arena",
     src: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop", // Gaming arena placeholder image
     ctaText: "View",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "/registration",
     content: () => {
       return (
         <div className="space-y-4">
@@ -396,7 +396,7 @@ const cards = [
     title: "Cybersecurity CTF",
     src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop", // Matrix/cybersecurity themed placeholder image
     ctaText: "View",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "/registration",
     content: () => {
       return (
         <div className="space-y-4">
@@ -459,7 +459,7 @@ const cards = [
     title: "Hands-On Tech & Skills",
     src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1000&auto=format&fit=crop", // Tech workshop/presentation themed placeholder image
     ctaText: "View",
-    ctaLink: "#",
+    ctaLink: "/registration",
     content: () => {
       return (
         <div className="space-y-4">

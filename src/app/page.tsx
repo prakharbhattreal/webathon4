@@ -2,6 +2,7 @@
 
 import Hero from "@/components/Hero";
 import { Navbar } from "@/components/navbar";
+import ExpandableCardDemo from "@/components/ui/expandable-card-demo-standard";
 
 export default function Home() {
   return (
@@ -9,14 +10,6 @@ export default function Home() {
       <Navbar />
 
       <Hero />
-
-      {/* Events Section */}
-      <section className="relative z-10 w-full max-w-7xl px-4 py-20">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-black dark:text-white">
-          Events
-        </h2>
-        <ExpandableCardDemo />
-      </section>
     </div>
   );
 }
