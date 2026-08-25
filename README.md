@@ -4,7 +4,7 @@ A modern and responsive web application built for **Webathon 4**, using Next.js,
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [Add your deployed website link here](https://eternalcrusaders-webathon4.vercel.app/events)
+🔗 **Live Website:** [Add your deployed website link here](https://eternalcrusaders-webathon4.vercel.app)
 
 ## 📌 About The Project
 
