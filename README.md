@@ -114,16 +114,6 @@ npm run lint
 
 Checks the project for linting and code-quality issues.
 
-## 📸 Screenshots
-
-Add screenshots of the project here.
-
-Example:
-
-```markdown
-![Homepage](./screenshots/home.png)
-```
-
 ## 🎯 Project Goals
 
 * Build a modern and responsive web application
@@ -133,14 +123,6 @@ Example:
 * Provide a smooth user experience
 * Maintain a clean and scalable codebase
 
-## 🔮 Future Improvements
-
-* [ ] Improve UI animations
-* [ ] Add additional features
-* [ ] Improve accessibility
-* [ ] Optimize SEO
-* [ ] Add backend/API integration
-* [ ] Deploy the final application
 
 ## 🤝 Contributing
 
@@ -177,7 +159,12 @@ This project is created for educational and hackathon purposes.
 
 **Prakhar Bhatt**
 
-GitHub: [prakharbhattreal](https://github.com/prakharbhattreal)
+GitHub:
+[prakharbhattreal](https://github.com/prakharbhattreal)
+[shivamatwal](https://github.com/synotechte)
+[ayushmehtoliya](https://github.com/AyushMehtoliya)
+[saurabh_bhatt](https://github.com/Saurabh-2007)
+
 
 ---
 
