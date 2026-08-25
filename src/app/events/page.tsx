@@ -2,6 +2,7 @@
 "use client";
 
 import ExpandableCardDemo from "@/components/ui/expandable-card-demo-standard";
+import Link from "next/link";
 
 export default function EventsPage() {
   return (
@@ -12,8 +13,15 @@ export default function EventsPage() {
           Upcoming Events
         </h1>
         <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-400">
-          Click on any event card below to view full details and registration links.
+          Click on any event card below to view full details and registration
+          links.
         </p>
+        <Link
+          href="/"
+          className="mt-4 text-md text-blue-600 hover:underline dark:text-blue-400"
+        >
+          Return Home
+        </Link>
       </div>
 
       {/* Expandable Cards List */}

@@ -125,7 +125,7 @@ export default function ExpandableCardDemo() {
         ) : null}
       </AnimatePresence>
       <ul className="max-w-2xl mx-auto w-full gap-4">
-        {cards.map((card, index) => (
+        {cards.map((card) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
@@ -209,7 +209,7 @@ const cards = [
     description: "HACKATHON",
     title: "Innovate, build",
     src: "https://images.unsplash.com/photo-1531482615713-2afd69097998",
-    ctaText: "View",
+    ctaText: "Registration",
     ctaLink: "/registration",
     content: () => {
       return (
@@ -270,7 +270,7 @@ const cards = [
     description: "TREASURE HUNT",
     title: "Clues, Challenges, Treasure",
     src: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f", // Replaced with an adventure/map themed placeholder image
-    ctaText: "View",
+    ctaText: "Registration",
     ctaLink: "/registration",
     content: () => {
       return (
@@ -333,7 +333,7 @@ const cards = [
     description: "E-SPORTS",
     title: "Ultimate Gaming Arena",
     src: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop", // Gaming arena placeholder image
-    ctaText: "View",
+    ctaText: "Registration",
     ctaLink: "/registration",
     content: () => {
       return (
@@ -395,7 +395,7 @@ const cards = [
     description: "CAPTURE THE FLAG",
     title: "Cybersecurity CTF",
     src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop", // Matrix/cybersecurity themed placeholder image
-    ctaText: "View",
+    ctaText: "Registration",
     ctaLink: "/registration",
     content: () => {
       return (
@@ -458,7 +458,7 @@ const cards = [
     description: "WORKSHOP",
     title: "Hands-On Tech & Skills",
     src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1000&auto=format&fit=crop", // Tech workshop/presentation themed placeholder image
-    ctaText: "View",
+    ctaText: "Registration",
     ctaLink: "/registration",
     content: () => {
       return (
