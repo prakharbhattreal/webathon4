@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+A modern and responsive web application built for Webathon 4, focusing on a clean user interface, smooth user experience, and modern web development practices.
 ## Getting Started
 
 First, run the development server:
